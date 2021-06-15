@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!-- "borrow this!""  -->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>BIKE DATA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+    <h1 class="h1">
+        DAILY BICYCLE DATA
+    </h1>
+    <br />
+    <table border="1">
+        <tr class="ht">
+            <th>CATEGORY</th>
+            <th>ENTER DATA</th>
+        </tr>
+
+     <tr class="tr">
+            <th>DATE</th>
+            <th><input type="date" id="boxDate" name="name" required minlength="10" maxlength="10" size="20" style="background-color: aqua;
+                color:blue;
+                font-size: 15px;">
+                </input></th>
+
+        </tr>
+        <tr class="tr">
+            <th>TIME</th>
+            <th><input class="input" type="time" id="boxTime" name="name" required minlength="10" maxlength="10" size="30" style="background-color: aqua;
+                color:blue;
+                font-size: 15px;">
+                </input></th>
+        </tr>
+        <tr class="tr">
+            <th>DISTANCE</th>
+            <th><input placeholder="00.00" class="input" id="boxDistance" size="20"></input></th>
+        </tr>
+        <tr class="tr">
+            <th>ACTIVE CAL</th>
+            <th><input placeholder="000" class="input" id="boxActiveCal" size="20" "></input></th>
+        </tr>
+        <tr class = " tr">
+            <th>TOTAL CAL</th>
+            <th> <input placeholder="000" class="input" id="boxTotalCal"></input></th>
+        </tr>
+        <tr class="tr">
+            <th>AVG HRT RATE</th>
+            <th><input placeholder="000" class="input" id="boxAvgHeartRate"></input></th>
+        </tr>
+        <tr class="tr">
+            <th>AVG SPEED</th>
+            <th><input placeholder="00.0" class="input" id="boxAvgSpeed"></input></th>
+        </tr>
+        <tr class="tr">
+
+
+            <th><button onclick="GrabandStoreData_Button();" class="button" id="GrabData">STORE DATA</button></th>
+
+            <th><button onclick="RetrieveDataButton();" class="button">RETRIEVE DATA</button></th>
+        </tr>
+
+        <tr class="tr">
+            <th><button onclick="" class="button">DAYS SINCE</button></th> 
+            <!-- DAYSSINCELASTButton();  empty quotes  -->
+            <th><button onclick="SortAtoZ();" class="button" id="sortu">SORT A-Z</button> &nbsp
+                <button onclick="SortZtoA();" class="button" id="sortd">SORT Z-A</button>
+            </th>
+
+        </tr>
+
+    </table>
+
+    <table border="2">
+        <th></th>
+        <th>
+           
+            <textarea class="textbox" id="textbox1" name="textbox" rows="20" cols="64">
+            </textarea>
+            
+                        <textarea class="textbox1" id="textbox2" name="textbox" rows="20" cols="7">
+            </textarea>
+
+        </th>
+    </table>
+
+    
+
+    <br>
+
+    <script src="script.js">
+    </script>
+</body>
+
+<!-- "borrow this!""  -->
+
+</html>

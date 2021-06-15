@@ -1,0 +1,72 @@
+
+
+body { 
+  background-color: rgb(46, 46, 146);
+  font-size: 20px;
+  color: white;   
+  }
+  
+ .button {
+  background-color: aqua;
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.h1 {
+  font-size: 20px; 
+}
+.tr {
+  font-size: 20px;
+}
+.ht {
+  font-size: 20px;
+  color:red;
+}
+.input {
+  background-color: aqua;
+  border: none;
+  color: blue;
+  padding: 5px 5px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#sortu {
+  background-color: aqua;
+  border: none;
+  color: blue;
+  padding: 5px 5px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#sortd {
+  background-color: aqua;
+  border: none;
+  color: blue;
+  padding: 5px 5px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.textbox {
+  font-size:8px;
+}
+
+.textbox1 {
+  font-size:8px;
+}
