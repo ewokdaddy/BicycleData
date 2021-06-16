@@ -6,7 +6,7 @@ var activecalspaces = "       ";
 var totalcalspaces = "       ";
 var avghrtspaces = "       ";
 var avgspeedspaces = "       ";
-var dayssince = "      ";
+var dayssince = "      ";  
 
 
 var date;
