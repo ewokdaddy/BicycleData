@@ -178,3 +178,8 @@ function SortAtoZ() {
 function SortZtoA() {
     alert("z to a");
 }
+
+function CLEAR() {
+    alert("clear");
+    localStorage.clear();
+}
