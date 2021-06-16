@@ -10,7 +10,7 @@ body {
   background-color: aqua;
   border: none;
   color: blue;
-  padding: 15px 32px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -18,10 +18,10 @@ body {
   cursor: pointer;
 }
 .h1 {
-  font-size: 20px; 
+  font-size: 15px; 
 }
 .tr {
-  font-size: 20px;
+  font-size: 15px;
 }
 .ht {
   font-size: 20px;
